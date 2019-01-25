@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>update</title>
+</head>
+<body>
+	<form action="doUpdate">
+		<input type="hidden" name="id" th:value="${id}"/>
+		name:<input type="text" name="name" />
+		<br/>
+		password:<input type="password" name="password"/>
+		<br/>
+		perms:<input type="text" name="perms"/>
+		<input type="submit" value="确定"/>
+	</form>
+</body>
+</html>
